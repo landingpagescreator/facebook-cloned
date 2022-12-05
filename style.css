@@ -1,0 +1,181 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f0f2f5;
+}
+
+.top-page
+{
+    width: 215vh;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+}
+
+.top-left
+{
+    width: 80vh;
+    height: 70vh;
+    margin-top: 80px;
+    margin-left: 60px;
+    align-items: center;
+}
+
+.inside-left
+{
+    margin: 110px 10px;
+}
+
+.top-left p:nth-child(1)
+{
+    font-size: 15mm;
+    font-weight: bold;
+    color: #166fe5;
+    margin-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.top-left p:nth-child(2)
+{
+    font-size: 7mm;
+}
+
+.top-right
+{
+    width: 80vh;
+    height: 70vh;
+    margin-top: 80px;
+    margin-right: 60px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxx
+{
+    width:auto;
+    height: auto;
+    position: absolute;
+    display: block;
+}
+
+.box
+{
+    background-color: white;
+    border-radius: 15px;
+    width: 65vh;
+    height: 55vh;
+    margin: auto;
+    padding: 15px 10px;
+    display: grid;
+    box-shadow: 2px 3px 50px rgb(172, 171, 171);
+}
+
+.box br
+{
+    margin: auto;
+}
+
+.box input
+{
+    height: 50px;
+    width: 60vh;
+    margin: auto;
+    padding: 10px;
+    border-radius: 7px;
+    border: #cbcdd1 solid 1px;
+    font-size: 18px;
+}
+
+.box input:hover
+{
+    cursor: auto;
+}
+
+.btn
+{
+    height: 45px;
+    width: 60vh;
+    margin: auto;
+    color: white;
+    font-size: 5mm;
+    background-color: #166fe5;
+    border: none;
+    border-radius: 7px;
+}
+
+.btn:hover
+{
+    cursor: pointer;
+}
+
+#frgt-pswrd
+{
+    margin: auto;
+    color: #166fe5;
+    text-decoration: none;
+}
+
+#btn2
+{
+    background-color: #36a420;
+    width: 35vh;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.box-bottom
+{
+    width: 55vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#create:hover
+{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bottom-page
+{
+    background-color: white;
+    width: 215vh;
+    height: 30vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inside-bottom-page
+{
+    position: absolute;
+    width: auto;
+    margin: 13%;
+    padding: 5px;
+    font-size: 13px;
+    color: grey;
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.inside-bottom-page div
+{
+    display: inline;
+    word-spacing: 10px;
+    margin-top: 10px;
+    line-height: 5mm;
+}
